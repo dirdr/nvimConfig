@@ -1,6 +1,8 @@
 call plug#begin('~/.vim/plugged')
 "colorscheme
 Plug 'gruvbox-community/gruvbox'
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'savq/melange'
 " lsp
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer'
@@ -32,6 +34,9 @@ Plug 'kyazdani42/nvim-tree.lua'
 " bufferline 
 Plug 'akinsho/bufferline.nvim'
 Plug 'moll/vim-bbye'
+" autoclosing tag
+Plug 'windwp/nvim-ts-autotag'
 call plug#end()
 lua require("adrien/init")
-colorscheme gruvbox
+set termguicolors
+colorscheme tokyonight
