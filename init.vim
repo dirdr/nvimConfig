@@ -39,4 +39,4 @@ Plug 'windwp/nvim-ts-autotag'
 call plug#end()
 lua require("adrien/init")
 set termguicolors
-colorscheme tokyonight
+colorscheme gruvbox
