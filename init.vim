@@ -36,7 +36,13 @@ Plug 'akinsho/bufferline.nvim'
 Plug 'moll/vim-bbye'
 " autoclosing tag
 Plug 'windwp/nvim-ts-autotag'
+" trouble 
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'folke/trouble.nvim'
+" alpha 
+Plug 'goolord/alpha-nvim'
 call plug#end()
 lua require("adrien/init")
 set termguicolors
 colorscheme gruvbox
+command Bd bp | sp | bn | bd
