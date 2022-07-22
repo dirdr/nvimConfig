@@ -41,6 +41,8 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'folke/trouble.nvim'
 " alpha 
 Plug 'goolord/alpha-nvim'
+" neotgit
+Plug 'TimUntersberger/neogit'
 call plug#end()
 lua require("adrien/init")
 set termguicolors
